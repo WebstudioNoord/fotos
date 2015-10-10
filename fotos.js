@@ -1,6 +1,6 @@
 var photos = document.getElementsByClassName("product-gallery-container")[0];
 var list = document.getElementsByClassName("cboxElement");
-if (list.length=0) {
+if (list.length===0) {
   list = document.getElementsByClassName("product-main-photo");
 }
 var hrefs='';
