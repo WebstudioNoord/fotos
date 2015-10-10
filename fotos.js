@@ -1,5 +1,8 @@
 var photos = document.getElementsByClassName("product-gallery-container")[0];
-var list = document.getElementsByClassName("cboxElement product-main-photo");
+var list = document.getElementsByClassName("cboxElement");
+if (list.length=0) {
+  list = document.getElementsByClassName("product-main-photo");
+}
 var hrefs='';
 for (i = 0; i < list.length; i++) { 
   //list[i].style.border = "5px solid red";
